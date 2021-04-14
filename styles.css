@@ -11,14 +11,13 @@
 	}
 }
 
-.invisible-link{
-	text-decoration: none;
-	color:inherit;
+p {
+	text-decoration: inherit;
+	font-family:  inherit;
+	color: inherit;
 }
 
-#footer {
-	font-family: "Avenir", "Segoe UI", Roboto;
-	font-size: 10pt;
+.footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -26,4 +25,14 @@
 	padding-bottom: 1.27cm;
 	text-align: center;
 	color: #7f7f7f;
+}
+
+.footer-text {
+	font-family: "Avenir", "Segoe UI", Roboto;
+	font-size: 10pt;
+}
+
+.invisible-link {
+	text-decoration: none;
+	color: inherit;
 }
