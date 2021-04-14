@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #eee;
+		background: #121212;
+	}
+}
+@media (prefers-color-scheme: light) {
+	body {
+		color: #222;
+		background: #fff;
+	}
+}
+
+.invisible-link{
+	text-decoration: none;
+	color:inherit;
+}
+
+#footer {
+	font-family: "Avenir";
+	font-size: 10pt;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 1.27cm;
+	text-align: center;
+	color: #7f7f7f;
+}
